@@ -1,0 +1,30 @@
+gradio==5.23.3
+mlflow>=2.21.2
+
+# Procesamiento de PDFs
+PyPDF2>=3.0.0
+
+# Modelos de embeddings
+sentence-transformers>=2.2.0
+
+# Búsqueda vectorial
+faiss-cpu>=1.7.0
+
+# Modelos de lenguaje
+transformers>=4.30.0
+torch>=2.0.0
+
+# Utilidades
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Logging y sistema
+pathlib2>=2.3.0
+
+huggingface_hub[hf_xet]
+# Opcional: Para PDFs más complejos
+# pdfplumber>=0.9.0
+# pypdf>=3.0.0
+
+# Opcional: Para mejores modelos de embeddings
+# sentence-transformers[faiss]>=2.2.0

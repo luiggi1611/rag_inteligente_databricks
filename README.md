@@ -1,1 +1,1 @@
-# rag_inteligente_databricks
+# app-templates
